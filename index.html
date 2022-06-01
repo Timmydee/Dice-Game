@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h2 id="player-turn">Player 1 Turn</h2>
+        </div>
+        <div class="col">
+            <div id="player1turn">
+                <h4>Score:
+                    <span id='Player1scoreboard'>0</span>
+                </h4>
+                <div id="player1dice" class="dice active">-</div>
+                
+            </div>
+            <div>
+                <h4>Score:
+                    <span id="player2scoreboard">0</span>
+                </h4>
+                <div id="player2dice" class="dice">-</div>
+                
+            </div>
+        </div>
+        <button id="rollbtn" >Roll Dice 🎲</button> <br>
+        <button id="resetbtn">Reset Game 🔁</button>
+        <div id="tips">
+            <a href="tips.html" class="tip">TIP</a>
+        </div>
+        
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
